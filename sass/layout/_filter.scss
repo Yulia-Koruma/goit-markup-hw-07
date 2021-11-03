@@ -1,7 +1,18 @@
 .filter__list {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: center;
+  }
 }
+
+.filter__item:nth-last-child(n + 4) {
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    margin-bottom: 15px;
+  }
+}
+
 .filter__list_margin-bottom {
   margin-bottom: 50px;
 }
