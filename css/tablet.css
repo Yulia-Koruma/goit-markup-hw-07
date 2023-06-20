@@ -189,6 +189,10 @@
     text-align: start;
 }
 
+.footer-form-label{
+    margin-bottom: 0px;
+}
+
 .footer-modal-input {
     width: 264px;
     margin-bottom: 0px;
